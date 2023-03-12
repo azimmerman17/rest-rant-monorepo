@@ -34,9 +34,7 @@ function LoginForm() {
             history.push('/')
         } else {
             setErrorMessage(data.message)
-        }
-    
-        console.log(data)
+        }    
     }
       
     

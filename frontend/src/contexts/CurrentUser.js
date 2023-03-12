@@ -19,7 +19,6 @@ function CurrentUserProvider({ children }){
         }
         getLoggedInUser()
     }, [])
-
     return (
         <CurrentUser.Provider value={{ currentUser, setCurrentUser }}>
             {children}
